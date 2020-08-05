@@ -10,7 +10,9 @@ You can use Google to look up the method calls.
 
 Questions:
 1) How to ensure that the input is a string at compile time?
+    - ให้ function ประกาศรับเป้น type string
 2) What did you learn from this exercise?
+    - การ validate data โดยที่เราไม่ต้องเขียนเองนั้นดี
 */
 const findIndexOfString = (input: String) => {
     const str1 = new String(input);
