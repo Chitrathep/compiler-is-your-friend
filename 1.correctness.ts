@@ -12,22 +12,15 @@ Questions:
 1) How to ensure that the input is a string at compile time?
 2) What did you learn from this exercise?
 */
-const findIndexOfString = (input) => {
-    if (typeof input !== "string") {
-        console.log(input + "is not string.");
-        return
-    }
-
+const findIndexOfString = (input: String) => {
     const str1 = new String(input);
     const index = str1.lastIndexOf("Script");
     console.log("lastIndexOf found String :" + index);
 }
 findIndexOfString('abcd sdsds Script');
-findIndexOfString(123);
 
 // OutPUt
 // [Running] docker run --rm --volume "/Users/ic3/compiler-is-your-friend/"1.correctness.ts:/home/1.correctness.ts local:myts ts-node /home/1.correctness.ts
 // lastIndexOf found String :11
-// 123is not string.
 
-// [Done] exited with code=0 in 1.613 seconds
+// [Done] exited with code=0 in 1.562 seconds
