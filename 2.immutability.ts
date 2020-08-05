@@ -11,9 +11,10 @@ Questions:
 2.2) such that cause of the bug can be spotted by the compiler at *compile time*.
 3) What did you learn from this exercise?
     - พึ่งรู้ว่ามี Infinity เกิดขึ้นตอนหารด้วย 0 ครับ
+    - ต้องระวังการ validate variable ครับ
 */
 function safeDivide(): number {
-    let x: number = 42 - 1;
+    const x: number = 42;
 
     if (x == 0) throw new Error("x should not be 0");
 
