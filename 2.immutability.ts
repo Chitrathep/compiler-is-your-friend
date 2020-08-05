@@ -13,7 +13,7 @@ Questions:
     - พึ่งรู้ว่ามี Infinity เกิดขึ้นตอนหารด้วย 0 ครับ
 */
 function safeDivide(): number {
-    let x: number = 42;
+    let x: number = 42 - 1;
 
     if (x == 0) throw new Error("x should not be 0");
 

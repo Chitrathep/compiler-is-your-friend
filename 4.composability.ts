@@ -69,4 +69,5 @@ Think. Compare and contrast the:
 Question:
 1) What did you learn from this problem? Why would we want to refactor the code to be
 like the Composable implementation?
+    - Composable implementation ช่วยให้เราสามารถนำ code กลับมาใช้งานซ้ำได้ และแก้ไขได้ง่ายขึ้น
 */
